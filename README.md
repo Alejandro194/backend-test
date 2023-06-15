@@ -8,7 +8,7 @@ La complejidad computacional de la operación "insert" en un árbol binario depe
 
 ### search
 
-La complejidad computacional de la operación “search” en un árbol binario esta determinada por el numero de nodos presente en el árbol y que tan balanceado este se encuentre. En el mejor de los casos la complejidad es constante O(1). Este caso se da cuando el nodo que se la raíz. En el peor de los casos la complejidad computacional seria de O(n), donde n es la cantidad de nodos que posee el árbol. Este caso ocurre cuando el árbol esta completamente desequilibrado. Para un árbol balanceado la complejidad de esta operación sería de O(log n), ya que empleando el método de búsqueda binaria apoyándose en la estructura del árbol no es necesario recorrer todos los nodos del árbol. 
+La complejidad computacional de la operación “search” en un árbol binario esta determinada por el numero de nodos presente en el árbol y que tan balanceado este se encuentre. En el mejor de los casos la complejidad es constante O(1). Este caso se da cuando el nodo que se busca es la raíz. En el peor de los casos la complejidad computacional seria de O(n), donde n es la cantidad de nodos que posee el árbol. Este caso ocurre cuando el árbol esta completamente desequilibrado. Para un árbol balanceado la complejidad de esta operación sería de O(log n), ya que empleando el método de búsqueda binaria apoyándose en la estructura del árbol no es necesario recorrer todos los nodos del árbol. 
 
 ### print_inorder
 
